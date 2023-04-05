@@ -1,0 +1,1 @@
+import{_ as n,p as t,q as o,s as e}from"./framework-1749bed7.js";const _={},s=e("p",null,"当未指定盒子的宽度时，就是盒子的默认宽度",-1),c=e("p",null,"此时盒子的宽度需要根据是否有 margin 值来判断",-1),r=e("p",null,"总宽度 = 父亲的 content - 自身的左右 margin",-1),a=[s,c,r];function l(i,u){return t(),o("div",null,a)}const m=n(_,[["render",l],["__file","CSS_hezimorenkuandu.html.vue"]]);export{m as default};

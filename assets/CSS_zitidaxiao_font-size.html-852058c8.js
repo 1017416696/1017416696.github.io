@@ -1,0 +1,4 @@
+import{_ as e,p as t,q as i,Z as n}from"./framework-1749bed7.js";const p={},s=n(`<p>Chrome 网页中最小的文字大小为 12 px，默认的文字大小为 16 px</p><p>在编写文字大小时，最好要指定文字的大小。因为不同浏览器的默认文字大小可能不同</p><p>利用 CSS 的继承性，在 body 中设置字体的大小</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>body {
+	font-size: 20px;
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><hr><p>字体设计一般都会从 x 开始设计</p><p>font-size 指的是字体设计框的高度</p><p>![[Pasted image 20230327204516.png]]</p><p>基线是紧紧贴着 x 下边缘的线</p><p>由于字体设计的原因，文字最终呈现的大小不一定与 font-size 的值一致，又可能大，也有可能小</p><p>通常情况下，文字相对字体设计框，并不是垂直居中的，通常都是靠下一些</p><p>![[Pasted image 20230327205111.png]]</p><hr><p>网页中的字体大小一般用偶数，偶数字号可以让文字在浏览器中展现得更好。而且 UI 给前端的设计图一般都是偶数布局</p>`,14),a=[s];function d(o,c){return t(),i("div",null,a)}const l=e(p,[["render",d],["__file","CSS_zitidaxiao_font-size.html.vue"]]);export{l as default};

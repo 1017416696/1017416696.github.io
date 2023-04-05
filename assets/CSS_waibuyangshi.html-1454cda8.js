@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-0ddc461a","path":"/docs/CSS/CSS_waibuyangshi.html","title":"CSS_外部样式","lang":"zh-CN","frontmatter":{"title":"CSS_外部样式"},"headers":[],"git":{"createdTime":1680599219000,"updatedTime":1680599219000,"contributors":[{"name":"cxf","email":"1017416696@qq.com","commits":1}]},"filePathRelative":"docs/CSS/CSS_外部样式.md"}');export{t as data};

@@ -1,0 +1,1 @@
+import{_ as n,p as t,q as _,s as e}from"./framework-1749bed7.js";const o={},s=e("p",null,"每个页面 h1 标签最好只写一个",-1),a=e("p",null,"h1-h3 用得比较多 ，h 标签中不能互相嵌套",-1),i=e("p",null,"p 为段落标签 ，p 标签中不能嵌套 h 标签 ，也不能嵌套 div 标签",-1),c=[s,a,i];function l(h,p){return t(),_("div",null,c)}const d=n(o,[["render",l],["__file","HTML_wenzipaibanbiaoqian.html.vue"]]);export{d as default};

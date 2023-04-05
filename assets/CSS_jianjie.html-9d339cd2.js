@@ -1,0 +1,1 @@
+import{_ as t,p as _,q as n,s as e}from"./framework-1749bed7.js";const s={},o=e("p",null,"CSS 全称为层叠样式表",-1),c=e("p",null,"层叠就是一层一层“涂”上去",-1),a=[o,c];function l(i,r){return _(),n("div",null,a)}const f=t(s,[["render",l],["__file","CSS_jianjie.html.vue"]]);export{f as default};

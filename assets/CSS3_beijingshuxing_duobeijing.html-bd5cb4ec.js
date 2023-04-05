@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3bfcf044","path":"/docs/CSS/CSS3_beijingshuxing_duobeijing.html","title":"CSS3_多背景","lang":"zh-CN","frontmatter":{"title":"CSS3_多背景"},"headers":[],"git":{"createdTime":1680599219000,"updatedTime":1680599219000,"contributors":[{"name":"cxf","email":"1017416696@qq.com","commits":1}]},"filePathRelative":"docs/CSS/CSS3_背景属性_多背景.md"}');export{e as data};

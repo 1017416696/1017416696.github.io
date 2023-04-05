@@ -1,0 +1,2 @@
+import{_ as n,p as s,q as t,s as e}from"./framework-1749bed7.js";const a={},c=e("div",{class:"language-text line-numbers-mode","data-ext":"text"},[e("pre",{class:"language-text"},[e("code",null,`color: rgb(255,0,0, .5);
+`)]),e("div",{class:"line-numbers","aria-hidden":"true"},[e("div",{class:"line-number"})])],-1),l=[c];function o(r,_){return s(),t("div",null,l)}const d=n(a,[["render",o],["__file","CSS_wenbenshuxing_wenbenyanse_color.html.vue"]]);export{d as default};

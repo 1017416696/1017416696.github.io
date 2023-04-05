@@ -1,0 +1,2 @@
+import{_ as e,p as s,q as c,Z as n}from"./framework-1749bed7.js";const a={},t=n(`<div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code><span class="token comment">/* xxxxxx */</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>`,1),i=[t];function o(d,l){return s(),c("div",null,i)}const _=e(a,[["render",o],["__file","CSS_zhushi.html.vue"]]);export{_ as default};

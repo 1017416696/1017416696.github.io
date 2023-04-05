@@ -1,0 +1,2 @@
+import{_ as s,p as t,q as n,s as e}from"./framework-1749bed7.js";const l={},a=e("div",{class:"language-text line-numbers-mode","data-ext":"text"},[e("pre",{class:"language-text"},[e("code",null,`<!-- xxx -->
+`)]),e("div",{class:"line-numbers","aria-hidden":"true"},[e("div",{class:"line-number"})])],-1),c=e("p",null,"注释在源代码中可以查看到",-1),_=e("p",null,"注释不能嵌套使用",-1),o=[a,c,_];function i(r,d){return t(),n("div",null,o)}const h=s(l,[["render",i],["__file","HTML_zhushi.html.vue"]]);export{h as default};

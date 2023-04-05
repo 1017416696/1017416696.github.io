@@ -1,0 +1,2 @@
+import{_ as t,p as s,q as n,s as e}from"./framework-1749bed7.js";const i={},a=e("p",null,"字体大小和字体族必须写，且字体大小和字体族只能放在最后两位",-1),o=e("div",{class:"language-text line-numbers-mode","data-ext":"text"},[e("pre",{class:"language-text"},[e("code",null,`font: bold italic 100px "Microsoft YaHei",sans-serif
+`)]),e("div",{class:"line-numbers","aria-hidden":"true"},[e("div",{class:"line-number"})])],-1),l=[a,o];function c(_,r){return s(),n("div",null,l)}const u=t(i,[["render",c],["__file","CSS_zitifuheshuxing_font.html.vue"]]);export{u as default};

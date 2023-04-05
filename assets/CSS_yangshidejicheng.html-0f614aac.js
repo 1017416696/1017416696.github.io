@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-cdedbd6a","path":"/docs/CSS/CSS_yangshidejicheng.html","title":"CSS_样式的继承","lang":"zh-CN","frontmatter":{"title":"CSS_样式的继承"},"headers":[],"git":{"createdTime":1680599219000,"updatedTime":1680599219000,"contributors":[{"name":"cxf","email":"1017416696@qq.com","commits":1}]},"filePathRelative":"docs/CSS/CSS_样式的继承.md"}');export{e as data};

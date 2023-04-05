@@ -1,0 +1,91 @@
+import{_ as n,p as s,q as a,Z as t}from"./framework-1749bed7.js";const e={},p=t(`<h2 id="fisrt-child-最大的孩子" tabindex="-1"><a class="header-anchor" href="#fisrt-child-最大的孩子" aria-hidden="true">#</a> fisrt-child (最大的孩子)</h2><p>所有兄弟元素的第一个元素</p><div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code><span class="token comment">/* 选中 div 的第一个儿子 */</span>
+<span class="token selector">div&gt;p:first-child</span> <span class="token punctuation">{</span>  
+    <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>  
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-html line-numbers-mode" data-ext="html"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>  
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>  
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>  
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><hr><div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code><span class="token selector">div&gt;p:first-child</span> <span class="token punctuation">{</span>  
+    <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>  
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-html line-numbers-mode" data-ext="html"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>  
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span>span<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>  
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>  
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>  
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>此时谁都选不中，因为 div 的第一个儿子是 span 元素</p><hr><div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code><span class="token selector">div p:first-child</span> <span class="token punctuation">{</span>  
+    <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>  
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-html line-numbers-mode" data-ext="html"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>  
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>test<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>  
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span>  
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>p<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>  
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>  
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>  
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>  
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>![[Pasted image 20230326205138.png]]</p><hr><div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code><span class="token selector">p:first-child</span> <span class="token punctuation">{</span>  
+    <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>  
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>选中的是 p 元素，不管 p 元素的父亲是谁，只要你是第一个子元素就行</p><hr><h2 id="nth-child" tabindex="-1"><a class="header-anchor" href="#nth-child" aria-hidden="true">#</a> nth-child</h2><p>选中 div 的第三个儿子 p 元素</p><div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code><span class="token selector">div&gt;p:nth-child(3)</span> <span class="token punctuation">{</span>  
+    <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>  
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-html line-numbers-mode" data-ext="html"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>  
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>test<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>  
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>  
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>  
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>  
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>![[Pasted image 20230326211518.png]]</p><hr><div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code><span class="token comment">/* 选中所有偶数的p元素 */</span>
+<span class="token selector">div&gt;p:nth-child(2n)</span> <span class="token punctuation">{</span>  
+    <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>  
+<span class="token punctuation">}</span>
+
+<span class="token selector">div&gt;p:nth-child(even)</span> <span class="token punctuation">{</span>  
+    <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>  
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* 选中所有奇数的p元素 */</span>
+<span class="token selector">div&gt;p:nth-child(2n+1)</span> <span class="token punctuation">{</span>
+
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-html line-numbers-mode" data-ext="html"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>  
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>  
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>  
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>  
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>4<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>  
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><hr><p>![[Pasted image 20230401151010.png]]</p><div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code><span class="token selector">li:nth-child(2n+1)</span> <span class="token punctuation">{</span>
+	<span class="token property">float</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">li:nth-child(2n)</span> <span class="token punctuation">{</span>
+	<span class="token property">float</span><span class="token punctuation">:</span> right<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><hr><p>选中前五个 p 元素</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>div&gt;p:nth-child(-n+5) {  
+    color: red;  
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote><p>nth-child 中的公式必须是 an+b 的形式 n 从 0 开始计算</p></blockquote><h2 id="first-of-type-最大的儿子-女儿" tabindex="-1"><a class="header-anchor" href="#first-of-type-最大的儿子-女儿" aria-hidden="true">#</a> first-of-type (最大的儿子/女儿)</h2><p>选中同类型兄弟的第一个元素</p><div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code><span class="token selector">div&gt;p:first-of-type</span> <span class="token punctuation">{</span>  
+    <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>  
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code>&lt;div&gt;  
+    &lt;span&gt;span&lt;/span&gt;  
+    &lt;p&gt;1&lt;/p&gt;  
+    &lt;p&gt;2&lt;/p&gt;  
+    &lt;p&gt;3&lt;/p&gt;  
+    &lt;p&gt;4&lt;/p&gt;  
+&lt;/div&gt;
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>![[Pasted image 20230326212740.png]]</p><h2 id="nth-of-type" tabindex="-1"><a class="header-anchor" href="#nth-of-type" aria-hidden="true">#</a> nth-of-type</h2><p>选中同类型兄弟的第n个元素</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>div&gt;p:nth-of-type(2) {  
+    color: red;  
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>&lt;div&gt;  
+    &lt;span&gt;span&lt;/span&gt;  
+    &lt;p&gt;1&lt;/p&gt;  
+    &lt;p&gt;2&lt;/p&gt;  
+    &lt;p&gt;3&lt;/p&gt;  
+    &lt;p&gt;4&lt;/p&gt;  
+&lt;/div&gt;
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>![[Pasted image 20230326213014.png]]</p><h2 id="nth-last-child" tabindex="-1"><a class="header-anchor" href="#nth-last-child" aria-hidden="true">#</a> nth-last-child</h2><p>倒数第几个元素</p><h2 id="nth-last-of-type" tabindex="-1"><a class="header-anchor" href="#nth-last-of-type" aria-hidden="true">#</a> nth-last-of-type</h2><p>倒数同类型的兄弟</p><h2 id="root" tabindex="-1"><a class="header-anchor" href="#root" aria-hidden="true">#</a> :root</h2><div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code><span class="token selector">:root</span> <span class="token punctuation">{</span>
+	<span class="token property">background-color</span><span class="token punctuation">:</span> gray
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><code>:root</code> 等价于 <code>html</code>，选中的是 html 根元素</p>`,48),l=[p];function c(i,o){return s(),a("div",null,l)}const d=n(e,[["render",c],["__file","CSS_CSS3_weileixuanzeqi_jiegouweilei.html.vue"]]);export{d as default};

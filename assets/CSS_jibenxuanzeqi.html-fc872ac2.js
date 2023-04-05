@@ -1,0 +1,1 @@
+import{_,p as n,q as t,s as e}from"./framework-1749bed7.js";const s={},o=e("p",null,"[[CSS_通配选择器]]",-1),c=e("p",null,"[[CSS_元素选择器]]",-1),l=e("p",null,"[[CSS_类选择器]]，使用频率最高",-1),i=e("p",null,"[[CSS_id选择器]]",-1),a=[o,c,l,i];function r(S,d){return n(),t("div",null,a)}const p=_(s,[["render",r],["__file","CSS_jibenxuanzeqi.html.vue"]]);export{p as default};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-097fbd5f","path":"/docs/HTML/H5_quanjushuxing.html","title":"H5_全局属性","lang":"zh-CN","frontmatter":{"title":"H5_全局属性"},"headers":[],"git":{"createdTime":1680599219000,"updatedTime":1680599219000,"contributors":[{"name":"cxf","email":"1017416696@qq.com","commits":1}]},"filePathRelative":"docs/HTML/H5_全局属性.md"}');export{t as data};

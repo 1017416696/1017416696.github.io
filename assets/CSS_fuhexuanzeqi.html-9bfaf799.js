@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6e64c482","path":"/docs/CSS/CSS_fuhexuanzeqi.html","title":"CSS_复合选择器","lang":"zh-CN","frontmatter":{"title":"CSS_复合选择器"},"headers":[],"git":{"createdTime":1680599219000,"updatedTime":1680599219000,"contributors":[{"name":"cxf","email":"1017416696@qq.com","commits":1}]},"filePathRelative":"docs/CSS/CSS_复合选择器.md"}');export{e as data};

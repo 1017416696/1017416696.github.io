@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-1fe6fff4","path":"/docs/HTML/HTML_metayuanxinxi.html","title":"HTML_meta元信息","lang":"zh-CN","frontmatter":{"title":"HTML_meta元信息"},"headers":[],"git":{"createdTime":1680599219000,"updatedTime":1680599219000,"contributors":[{"name":"cxf","email":"1017416696@qq.com","commits":1}]},"filePathRelative":"docs/HTML/HTML_meta元信息.md"}');export{t as data};

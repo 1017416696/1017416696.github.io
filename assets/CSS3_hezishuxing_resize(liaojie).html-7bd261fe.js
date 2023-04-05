@@ -1,0 +1,4 @@
+import{_ as e,p as s,q as n,Z as a}from"./framework-1749bed7.js";const t={},i=a(`<p>使用该属性可以在某一方向上调整盒子的大小</p><div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code><span class="token selector">textarea</span> <span class="token punctuation">{</span> 
+	<span class="token property">resize</span><span class="token punctuation">:</span> horizontal/vertival/both<span class="token punctuation">;</span> 
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>使用 resize 属性必须配合 [[CSS_处理内容溢出_overflow]] 属性(只要有该属性就行)</p><p>这个例子中，多行文本框就可以在水平和垂直方向调整大小</p>`,4),c=[i];function o(l,r){return s(),n("div",null,c)}const _=e(t,[["render",o],["__file","CSS3_hezishuxing_resize(liaojie).html.vue"]]);export{_ as default};

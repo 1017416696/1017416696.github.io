@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-18ef9c2e","path":"/docs/HTML/HTML_shezhiyuyan.html","title":"HTML_设置语言","lang":"zh-CN","frontmatter":{"title":"HTML_设置语言"},"headers":[],"git":{"createdTime":1680599219000,"updatedTime":1680599219000,"contributors":[{"name":"cxf","email":"1017416696@qq.com","commits":1}]},"filePathRelative":"docs/HTML/HTML_设置语言.md"}');export{e as data};

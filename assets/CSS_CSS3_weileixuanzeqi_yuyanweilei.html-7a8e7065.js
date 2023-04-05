@@ -1,0 +1,5 @@
+import{_ as e,p as n,q as s,Z as a}from"./framework-1749bed7.js";const t={},i=a(`<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>&lt;div lang=&quot;en&quot;&gt;你好&lt;/div&gt;
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code><span class="token selector">div:lang(en)</span> <span class="token punctuation">{</span>  
+    <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>  
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,2),l=[i];function c(d,o){return n(),s("div",null,l)}const u=e(t,[["render",c],["__file","CSS_CSS3_weileixuanzeqi_yuyanweilei.html.vue"]]);export{u as default};

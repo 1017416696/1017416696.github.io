@@ -1,0 +1,12 @@
+import{_ as n,p as e,q as a,Z as s}from"./framework-1749bed7.js";const i={},t=s(`<h2 id="概念" tabindex="-1"><a class="header-anchor" href="#概念" aria-hidden="true">#</a> 概念</h2><p>行高就是==每一行==文字的高度</p><div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code><span class="token property">line-height</span><span class="token punctuation">:</span> 50px<span class="token punctuation">;</span>
+
+<span class="token property">line-height</span><span class="token punctuation">:</span> normal<span class="token punctuation">;</span>
+
+<span class="token comment">/* 行高一般设为字体大小的1.5倍，用得比较多 */</span>
+<span class="token comment">/* 行高继承后，子元素的字体大小无论是多少，行高也都是字体大小的 1.5 倍 */</span>
+<span class="token property">font-size</span><span class="token punctuation">:</span> 40px<span class="token punctuation">;</span>
+<span class="token property">line-height</span><span class="token punctuation">:</span> 1.5<span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>一般情况下，行高都会略高于字体大小，字体大小和行高不设置相同的值，</p><p>如果不写行高，浏览器会根据网页中的字体自动适配一个行高</p><h2 id="注意事项" tabindex="-1"><a class="header-anchor" href="#注意事项" aria-hidden="true">#</a> 注意事项</h2><p>当行高为0时，文字的垂直间距就为0，多行文字就叠在一起了，且容器的背景色会消失</p><p>当行高为0时，文字顶部的一些部分会被吃掉</p><p>行高最小值为0，不能是负值</p><p>行高可以继承</p><p>当 line-height 和 height 同时出现时，容器的高度就是 height 的高度。如果没有设置 height ，则容器的高度就是 <code>行高 x 行数</code>，容器的高度会随着行数的变化而变化</p><p>如果没有设置 height 且 line-height 为0px，则该容器的高度就是为0，即使给容器设置背景色也不会起作用</p><h2 id="行高的使用场景" tabindex="-1"><a class="header-anchor" href="#行高的使用场景" aria-hidden="true">#</a> 行高的使用场景</h2><p>可以调整多行文本的垂直间距</p><p>容器的高度和行高的值相同，让单行文本垂直居中</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>font-size: 30px;
+height: 300px;
+line-height: 300px
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="面试题" tabindex="-1"><a class="header-anchor" href="#面试题" aria-hidden="true">#</a> 面试题</h2><p>line-height 与 height 的区别</p>`,18),p=[t];function c(l,d){return e(),a("div",null,p)}const h=n(i,[["render",c],["__file","CSS_wenbenshuxing_xinggao_line-height.html.vue"]]);export{h as default};

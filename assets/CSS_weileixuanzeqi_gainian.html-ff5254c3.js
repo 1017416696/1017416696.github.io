@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-dbeb7eba","path":"/docs/CSS/CSS_weileixuanzeqi_gainian.html","title":"CSS_伪类选择器概念","lang":"zh-CN","frontmatter":{"title":"CSS_伪类选择器概念"},"headers":[],"git":{"createdTime":1680599219000,"updatedTime":1680599219000,"contributors":[{"name":"cxf","email":"1017416696@qq.com","commits":1}]},"filePathRelative":"docs/CSS/CSS_伪类选择器_概念.md"}');export{e as data};

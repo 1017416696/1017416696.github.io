@@ -1,0 +1,5 @@
+import{_ as n,p as s,q as a,Z as e}from"./framework-1749bed7.js";const t={},p=e(`<p>边框默认的宽度为3px，如果和默认的不同，则可能是显示器分辨率的问题</p><div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code><span class="token property">border-left-width</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+<span class="token property">border-left-color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+<span class="token property">border-left-style</span><span class="token punctuation">:</span> solid<span class="token punctuation">;</span>
+<span class="token property">border-left</span><span class="token punctuation">:</span> 20px solid purple<span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,2),o=[p];function c(l,r){return s(),a("div",null,o)}const d=n(t,[["render",c],["__file","CSS_hezibiankuang_border.html.vue"]]);export{d as default};
